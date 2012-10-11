@@ -1,0 +1,16 @@
+- Angle for rope, to allow aiming for lower than horizontal line
+- Preserve movement energy for frag grenade fragments better
+- Option for setting weapon specific blast radius and damage
+- Ability to reset the amount of a particular weapon for each
+  turn, the setting needs to be weapon specific
+- Starting player should not be random for consecutive rounds
+  in less than 3 player games if the player list stays the same
+- Bazooka's entry point should be the tip of the bazooka, not
+  the center of the player
+- Damage caused by mines should be activated immediately, not
+  after player's turn
+- Tweakable sensitivity for barrels, how easily they blast
+- Replays after turns that cause high damage, kill many players etc
+- Bazooka and similar weapons should have longer range to
+  reach from end to end in large maps, at least in good wind
+  conditions
