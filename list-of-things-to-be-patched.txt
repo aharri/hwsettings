@@ -14,3 +14,4 @@
 - Bazooka and similar weapons should have longer range to
   reach from end to end in large maps, at least in good wind
   conditions
+- Range of flame thrower should be longer.
