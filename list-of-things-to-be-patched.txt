@@ -1,4 +1,3 @@
-- Angle for rope, to allow aiming for lower than horizontal line
 - Preserve movement energy for frag grenade fragments better
 - Option for setting weapon specific blast radius and damage
 - Ability to reset the amount of a particular weapon for each

@@ -1,0 +1,23 @@
+Removes angle limitation from Bazooka and Ninja Rope
+to allow aiming lower than horizontal line.
+
+--- hedgewars-src-0.9.17/hedgewars/uVariables.pas.orig	2012-10-01 17:32:22.000000000 +0300
++++ hedgewars-src-0.9.17/hedgewars/uVariables.pas	2012-10-16 19:50:59.000000000 +0300
+@@ -988,7 +988,7 @@
+             Slot: 7;
+             TimeAfterTurn: 0;
+             minAngle: 0;
+-            maxAngle: cMaxAngle div 2;
++            maxAngle: 0;
+             isDamaging: false;
+             SkipTurns: 0;
+             PosCount: 1;
+@@ -1132,7 +1132,7 @@
+             Slot: 3;
+             TimeAfterTurn: 5000;
+             minAngle: 0;
+-            maxAngle: cMaxAngle div 2;
++            maxAngle: 0;
+             isDamaging: true;
+             SkipTurns: 2;
+             PosCount: 1;
